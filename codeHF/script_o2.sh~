@@ -1,0 +1,11 @@
+#!/bin/bash
+FileIn="$1"
+JSON="$2"
+mkdir sockets && \
+o2-analysis-hf-track-index-skims-creator -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error | \
+o2-analysis-hf-candidate-creator-2prong --doMC -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error | \
+o2-analysis-hf-jpsi-candidate-selector --isAlice3 -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error | \
+o2-analysis-hf-task-jpsi --doMC -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error | \
+o2-analysis-pid-tpc-full -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error | \
+o2-analysis-pid-tof-full -b --configuration json://$JSON --aod-memory-rate-limit 2000000000 --shm-segment-size 16000000000 --min-failure-level error  --fairmq-ipc-prefix sockets && \
+rm -r sockets

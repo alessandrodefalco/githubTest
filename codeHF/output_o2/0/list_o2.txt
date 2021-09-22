@@ -1,0 +1,1 @@
+/home/mmazzill/pp14TeV_oniaX_10M_geometry_v1_2T_rmin20_01092021/AODRun5.0.root

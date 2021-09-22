@@ -1,0 +1,669 @@
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 538217.
+[INFO] Rate limiting set up at 2000MB distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(DEBUG) / LOGF(DEBUG) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 538308
+[INFO] Starting internal-dpl-aod-reader on pid 538309
+[INFO] Starting internal-dpl-aod-spawner on pid 538310
+[INFO] Starting hf-tag-sel-collisions on pid 538311
+[INFO] Starting tof-pid-full on pid 538312
+[INFO] Starting tpc-pid-full on pid 538313
+[INFO] Starting hf-tag-sel-tracks on pid 538314
+[INFO] Starting hf-track-index-skims-creator on pid 538315
+[INFO] Starting hf-cand-creator-2prong on pid 538316
+[INFO] Starting hf-cand-creator-2prong-expressions on pid 538317
+[INFO] Starting hf-cand-creator-2prong-mc on pid 538318
+[INFO] Starting hf-d0-candidate-selector on pid 538319
+[INFO] Starting hf-task-d0 on pid 538320
+[INFO] Starting hf-task-d0-mc on pid 538321
+[INFO] Starting internal-dpl-aod-writer on pid 538322
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 538323
+[INFO] Redeployment of configuration done.
+[538310:internal-dpl-aod-spawner]: [INFO] Spawing new device internal-dpl-aod-spawner in process with pid 538310
+[538310:internal-dpl-aod-spawner]: [12:15:00][INFO] 
+[538310:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[538310:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538310:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538310:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538310:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538310:internal-dpl-aod-spawner]: 
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] BINDING ---> BOUND
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538310:internal-dpl-aod-spawner]: [12:15:00][STATE] READY ---> RUNNING
+[538310:internal-dpl-aod-spawner]: [12:15:00][INFO] DEVICE: Running...
+[538310:internal-dpl-aod-spawner]: [12:15:00][INFO] No expired offers
+[538310:internal-dpl-aod-spawner]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[INFO] Offering 300MB out of 2000 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:300 = offered:300 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 300MB out of 1700 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:600 = offered:600 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 300MB out of 1400 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:900 = offered:900 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 300MB out of 1100 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:1200 = offered:1200 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 300MB out of 800 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:1500 = offered:1500 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 300MB out of 500 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:1800 = offered:1800 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 200MB out of 200 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:2000 = offered:2000 - (expired:0 + consumed:0) / 1000000
+[INFO] We do not have enough shared memory (0MB) to offer 50MB
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[538308:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 538308
+[538312:tof-pid-full]: [INFO] Spawing new device tof-pid-full in process with pid 538312
+[538312:tof-pid-full]: [12:15:00][INFO] 
+[538312:tof-pid-full]:       ______      _    _______  _________ 
+[538312:tof-pid-full]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538312:tof-pid-full]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538312:tof-pid-full]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538312:tof-pid-full]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538312:tof-pid-full]: 
+[538312:tof-pid-full]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538312:tof-pid-full]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538313:tpc-pid-full]: [INFO] Spawing new device tpc-pid-full in process with pid 538313
+[538313:tpc-pid-full]: [12:15:00][INFO] 
+[538313:tpc-pid-full]:       ______      _    _______  _________ 
+[538313:tpc-pid-full]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538313:tpc-pid-full]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538313:tpc-pid-full]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538313:tpc-pid-full]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538313:tpc-pid-full]: 
+[538313:tpc-pid-full]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538308:internal-dpl-clock]: [12:15:00][INFO] 
+[538308:internal-dpl-clock]:       ______      _    _______  _________ 
+[538308:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538308:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538308:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538308:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538308:internal-dpl-clock]: 
+[538308:internal-dpl-clock]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538313:tpc-pid-full]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538308:internal-dpl-clock]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538308:internal-dpl-clock]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538308:internal-dpl-clock]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538308:internal-dpl-clock]: [12:15:00][STATE] BINDING ---> BOUND
+[538308:internal-dpl-clock]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538308:internal-dpl-clock]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538308:internal-dpl-clock]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538308:internal-dpl-clock]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538308:internal-dpl-clock]: [12:15:00][STATE] READY ---> RUNNING
+[538308:internal-dpl-clock]: [12:15:00][INFO] DEVICE: Running...
+[538308:internal-dpl-clock]: [12:15:00][INFO] No expired offers
+[538308:internal-dpl-clock]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538311:hf-tag-sel-collisions]: [INFO] Spawing new device hf-tag-sel-collisions in process with pid 538311
+[538311:hf-tag-sel-collisions]: [12:15:00][INFO] 
+[538311:hf-tag-sel-collisions]:       ______      _    _______  _________ 
+[538311:hf-tag-sel-collisions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538311:hf-tag-sel-collisions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538311:hf-tag-sel-collisions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538311:hf-tag-sel-collisions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538311:hf-tag-sel-collisions]: 
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538317:hf-cand-creator-2prong-expressions]: [INFO] Spawing new device hf-cand-creator-2prong-expressions in process with pid 538317
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][INFO] 
+[538317:hf-cand-creator-2prong-expressions]:       ______      _    _______  _________ 
+[538317:hf-cand-creator-2prong-expressions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538317:hf-cand-creator-2prong-expressions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538317:hf-cand-creator-2prong-expressions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538317:hf-cand-creator-2prong-expressions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538317:hf-cand-creator-2prong-expressions]: 
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538314:hf-tag-sel-tracks]: [INFO] Spawing new device hf-tag-sel-tracks in process with pid 538314
+[538314:hf-tag-sel-tracks]: [12:15:00][INFO] 
+[538314:hf-tag-sel-tracks]:       ______      _    _______  _________ 
+[538314:hf-tag-sel-tracks]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538314:hf-tag-sel-tracks]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538314:hf-tag-sel-tracks]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538314:hf-tag-sel-tracks]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538314:hf-tag-sel-tracks]: 
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538319:hf-d0-candidate-selector]: [INFO] Spawing new device hf-d0-candidate-selector in process with pid 538319
+[538323:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawing new device internal-dpl-aod-global-analysis-file-sink in process with pid 538323
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538320:hf-task-d0]: [INFO] Spawing new device hf-task-d0 in process with pid 538320
+[538319:hf-d0-candidate-selector]: [12:15:00][INFO] 
+[538319:hf-d0-candidate-selector]:       ______      _    _______  _________ 
+[538319:hf-d0-candidate-selector]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538319:hf-d0-candidate-selector]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538319:hf-d0-candidate-selector]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538319:hf-d0-candidate-selector]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538319:hf-d0-candidate-selector]: 
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][INFO] 
+[538323:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[538323:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538323:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538323:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538323:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538323:internal-dpl-aod-global-analysis-file-sink]: 
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538320:hf-task-d0]: [12:15:00][INFO] 
+[538320:hf-task-d0]:       ______      _    _______  _________ 
+[538320:hf-task-d0]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538320:hf-task-d0]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538320:hf-task-d0]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538320:hf-task-d0]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538320:hf-task-d0]: 
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538320:hf-task-d0]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] BINDING ---> BOUND
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] BINDING ---> BOUND
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538320:hf-task-d0]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] BINDING ---> BOUND
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] BINDING ---> BOUND
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538320:hf-task-d0]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538320:hf-task-d0]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538320:hf-task-d0]: [12:15:00][STATE] BINDING ---> BOUND
+[538320:hf-task-d0]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538320:hf-task-d0]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538320:hf-task-d0]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][STATE] READY ---> RUNNING
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][INFO] DEVICE: Running...
+[538316:hf-cand-creator-2prong]: [INFO] Spawing new device hf-cand-creator-2prong in process with pid 538316
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][INFO] No expired offers
+[538317:hf-cand-creator-2prong-expressions]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538316:hf-cand-creator-2prong]: [12:15:00][INFO] 
+[538316:hf-cand-creator-2prong]:       ______      _    _______  _________ 
+[538316:hf-cand-creator-2prong]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538316:hf-cand-creator-2prong]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538316:hf-cand-creator-2prong]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538316:hf-cand-creator-2prong]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538316:hf-cand-creator-2prong]: 
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] BINDING ---> BOUND
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] BINDING ---> BOUND
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538311:hf-tag-sel-collisions]: [12:15:00][STATE] READY ---> RUNNING
+[538311:hf-tag-sel-collisions]: [12:15:00][INFO] DEVICE: Running...
+[538311:hf-tag-sel-collisions]: [12:15:00][INFO] No expired offers
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538314:hf-tag-sel-tracks]: [12:15:00][STATE] READY ---> RUNNING
+[538314:hf-tag-sel-tracks]: [12:15:00][INFO] DEVICE: Running...
+[538314:hf-tag-sel-tracks]: [12:15:00][INFO] No expired offers
+[538320:hf-task-d0]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538320:hf-task-d0]: [12:15:00][STATE] READY ---> RUNNING
+[538320:hf-task-d0]: [12:15:00][INFO] DEVICE: Running...
+[538320:hf-task-d0]: [12:15:00][INFO] No expired offers
+[538321:hf-task-d0-mc]: [INFO] Spawing new device hf-task-d0-mc in process with pid 538321
+[538321:hf-task-d0-mc]: [12:15:00][INFO] 
+[538321:hf-task-d0-mc]:       ______      _    _______  _________ 
+[538321:hf-task-d0-mc]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538321:hf-task-d0-mc]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538321:hf-task-d0-mc]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538321:hf-task-d0-mc]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538321:hf-task-d0-mc]: 
+[538321:hf-task-d0-mc]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538311:hf-tag-sel-collisions]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538314:hf-tag-sel-tracks]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538320:hf-task-d0]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538322:internal-dpl-aod-writer]: [INFO] Spawing new device internal-dpl-aod-writer in process with pid 538322
+[538322:internal-dpl-aod-writer]: [12:15:00][INFO] 
+[538322:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[538322:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538322:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538322:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538322:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538322:internal-dpl-aod-writer]: 
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] BINDING ---> BOUND
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538322:internal-dpl-aod-writer]: [12:15:00][STATE] READY ---> RUNNING
+[538322:internal-dpl-aod-writer]: [12:15:00][INFO] DEVICE: Running...
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][STATE] READY ---> RUNNING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][INFO] DEVICE: Running...
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][INFO] No expired offers
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538316:hf-cand-creator-2prong]: [12:15:00][STATE] READY ---> RUNNING
+[538316:hf-cand-creator-2prong]: [12:15:00][INFO] DEVICE: Running...
+[538316:hf-cand-creator-2prong]: [12:15:00][INFO] No expired offers
+[538316:hf-cand-creator-2prong]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538318:hf-cand-creator-2prong-mc]: [INFO] Spawing new device hf-cand-creator-2prong-mc in process with pid 538318
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][INFO] 
+[538318:hf-cand-creator-2prong-mc]:       ______      _    _______  _________ 
+[538318:hf-cand-creator-2prong-mc]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538318:hf-cand-creator-2prong-mc]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538318:hf-cand-creator-2prong-mc]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538318:hf-cand-creator-2prong-mc]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538318:hf-cand-creator-2prong-mc]: 
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] BINDING ---> BOUND
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538319:hf-d0-candidate-selector]: [12:15:00][STATE] READY ---> RUNNING
+[538319:hf-d0-candidate-selector]: [12:15:00][INFO] DEVICE: Running...
+[538319:hf-d0-candidate-selector]: [12:15:00][INFO] No expired offers
+[538319:hf-d0-candidate-selector]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538321:hf-task-d0-mc]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538321:hf-task-d0-mc]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538321:hf-task-d0-mc]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538321:hf-task-d0-mc]: [12:15:00][STATE] BINDING ---> BOUND
+[538321:hf-task-d0-mc]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538321:hf-task-d0-mc]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538321:hf-task-d0-mc]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538321:hf-task-d0-mc]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538321:hf-task-d0-mc]: [12:15:00][STATE] READY ---> RUNNING
+[538321:hf-task-d0-mc]: [12:15:00][INFO] DEVICE: Running...
+[538321:hf-task-d0-mc]: [12:15:00][INFO] No expired offers
+[538321:hf-task-d0-mc]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538322:internal-dpl-aod-writer]: [12:15:00][INFO] No expired offers
+[538322:internal-dpl-aod-writer]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538316:hf-cand-creator-2prong]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538316:hf-cand-creator-2prong]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2086 messages. All is good.
+[538319:hf-d0-candidate-selector]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538319:hf-d0-candidate-selector]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2741 messages. All is good.
+[538313:tpc-pid-full]: [12:15:00][INFO] Is alien token present?: 0
+[538313:tpc-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTPCFullPr
+[538313:tpc-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTPCFullPi
+[538313:tpc-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTPCFullMu
+[538313:tpc-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTPCFullEl
+[538313:tpc-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTPCFullKa
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][STATE] READY ---> RUNNING
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][INFO] DEVICE: Running...
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][INFO] No expired offers
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538321:hf-task-d0-mc]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538321:hf-task-d0-mc]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2476 messages. All is good.
+[538322:internal-dpl-aod-writer]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538322:internal-dpl-aod-writer]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2339 messages. All is good.
+[538312:tof-pid-full]: [12:15:00][INFO] Is alien token present?: 0
+[538312:tof-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTOFFullEl
+[538312:tof-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTOFFullKa
+[538312:tof-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTOFFullMu
+[538312:tof-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTOFFullPi
+[538312:tof-pid-full]: [12:15:00][INFO] Auto-enabling table: pidTOFFullPr
+[538309:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 538309
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] 
+[538309:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[538309:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538309:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538309:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538309:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538309:internal-dpl-aod-reader]: 
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] BINDING ---> BOUND
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538309:internal-dpl-aod-reader]: [12:15:00][STATE] READY ---> RUNNING
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] DEVICE: Running...
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] No offer was selected
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO]   The following offers were invalid: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] No expired offers
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] No offer was selected
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO]   The following offers were invalid: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+[538315:hf-track-index-skims-creator]: [INFO] Spawing new device hf-track-index-skims-creator in process with pid 538315
+[538315:hf-track-index-skims-creator]: [12:15:00][INFO] 
+[538315:hf-track-index-skims-creator]:       ______      _    _______  _________ 
+[538315:hf-track-index-skims-creator]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.42
+[538315:hf-track-index-skims-creator]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[538315:hf-track-index-skims-creator]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[538315:hf-track-index-skims-creator]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2021 GSI
+[538315:hf-track-index-skims-creator]: 
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] Starting FairMQ state machine --> IDLE
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] IDLE ---> INITIALIZING DEVICE
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] INITIALIZED ---> BINDING
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] BINDING ---> BOUND
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] BOUND ---> CONNECTING
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] CONNECTING ---> DEVICE READY
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] DEVICE READY ---> INITIALIZING TASK
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] INITIALIZING TASK ---> READY
+[538315:hf-track-index-skims-creator]: [12:15:00][STATE] READY ---> RUNNING
+[538315:hf-track-index-skims-creator]: [12:15:00][INFO] DEVICE: Running...
+[538315:hf-track-index-skims-creator]: [12:15:00][INFO] No expired offers
+[538315:hf-track-index-skims-creator]: [12:15:00][WARN] Unable to communicate with driver because client is not connected. Continuing connection attempts.
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538318:hf-cand-creator-2prong-mc]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2274 messages. All is good.
+[INFO] Controller for internal-dpl-aod-reader now available.
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] No offer was selected
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO]   The following offers were invalid: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] No offer was selected
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO]   The following offers were invalid: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 300MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Received 200MB shared memory offer
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] Offer 1 still valid for 10000 milliseconds, providing 200MB
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO] 1 offers were selected for a total of: cpu 0, memory 0, shared memory 200000000
+[538309:internal-dpl-aod-reader]: [12:15:00][INFO]   The following offers were selected for computation: 1 
+[538315:hf-track-index-skims-creator]: [12:15:00][INFO] Correctly handshaken websocket connection.
+[538315:hf-track-index-skims-creator]: [12:15:00][WARN] DriverClient connected successfully. Flushing message backlog of 2169 messages. All is good.
+[538312:tof-pid-full]: [12:15:00][INFO] Is alien token present?: 0
+[538312:tof-pid-full]: [12:15:00][INFO] Creating new parametrization Sigma_default_param of size 4
+[538312:tof-pid-full]: [12:15:00][INFO] Parametrization 'Sigma_default_param'
+[538312:tof-pid-full]: [12:15:00][INFO] Parameters 'Sigma_default_paramParameters'
+[538312:tof-pid-full]: [12:15:00][INFO] Parameter 0/3 is 0
+[538312:tof-pid-full]: [12:15:00][INFO] Parameter 1/3 is 0
+[538312:tof-pid-full]: [12:15:00][INFO] Parameter 2/3 is 0
+[538312:tof-pid-full]: [12:15:00][INFO] Parameter 3/3 is 0
+[538312:tof-pid-full]: [12:15:00][INFO] Loading exp. sigma parametrization from CCDB, using path: Analysis/PID/TOF/TOFReso for timestamp -1
+[538313:tpc-pid-full]: [12:15:00][INFO] Is alien token present?: 0
+[538313:tpc-pid-full]: [12:15:00][INFO] Loading exp. signal parametrization from CCDB, using path: Analysis/PID/TPC/BetheBloch for timestamp -1
+[538312:tof-pid-full]: [12:15:00][WARN] CCDB: Did not find an alien token; Cannot serve objects located on alien://
+[538313:tpc-pid-full]: [12:15:00][WARN] CCDB: Did not find an alien token; Cannot serve objects located on alien://
+[538313:tpc-pid-full]: [12:15:01][INFO] Loading exp. sigma parametrization from CCDB, using path: Analysis/PID/TPC/TPCReso for timestamp -1
+[538313:tpc-pid-full]: [12:15:01][WARN] CCDB: Did not find an alien token; Cannot serve objects located on alien://
+[538313:tpc-pid-full]: [12:15:01][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538313:tpc-pid-full]: [12:15:01][STATE] INITIALIZED ---> BINDING
+[538313:tpc-pid-full]: [12:15:01][STATE] BINDING ---> BOUND
+[538313:tpc-pid-full]: [12:15:01][STATE] BOUND ---> CONNECTING
+[538313:tpc-pid-full]: [12:15:01][STATE] CONNECTING ---> DEVICE READY
+[538313:tpc-pid-full]: [12:15:01][STATE] DEVICE READY ---> INITIALIZING TASK
+[538313:tpc-pid-full]: [12:15:01][STATE] INITIALIZING TASK ---> READY
+[538313:tpc-pid-full]: [12:15:01][STATE] READY ---> RUNNING
+[538313:tpc-pid-full]: [12:15:01][INFO] DEVICE: Running...
+[538313:tpc-pid-full]: [12:15:01][INFO] No expired offers
+[538313:tpc-pid-full]: [12:15:01][INFO] Correctly handshaken websocket connection.
+[538312:tof-pid-full]: [12:15:01][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[538312:tof-pid-full]: [12:15:01][STATE] INITIALIZED ---> BINDING
+[538312:tof-pid-full]: [12:15:01][STATE] BINDING ---> BOUND
+[538312:tof-pid-full]: [12:15:01][STATE] BOUND ---> CONNECTING
+[538312:tof-pid-full]: [12:15:01][STATE] CONNECTING ---> DEVICE READY
+[538312:tof-pid-full]: [12:15:01][STATE] DEVICE READY ---> INITIALIZING TASK
+[538312:tof-pid-full]: [12:15:01][STATE] INITIALIZING TASK ---> READY
+[538312:tof-pid-full]: [12:15:01][STATE] READY ---> RUNNING
+[538312:tof-pid-full]: [12:15:01][INFO] DEVICE: Running...
+[538312:tof-pid-full]: [12:15:01][INFO] No expired offers
+[538312:tof-pid-full]: [12:15:01][INFO] Correctly handshaken websocket connection.
+[538322:internal-dpl-aod-writer]: [12:15:02][INFO] No AODs to be saved.
+[538309:internal-dpl-aod-reader]: [12:15:02][INFO] Creating 207.301688MB for table AOD/MCPARTICLE.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 9.088896MB for table AOD/TRACKCOV.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 9.99696MB for table AOD/TRACK.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 0.286832MB for table AOD/COLLISION.
+[538310:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.gOk4vxFbq6/BUILD/f021bb4898ca5f8d8d3e81c3713310f5e929b332/arrow/src_tmp/cpp/src/gandiva/cache.cc:42: Creating gandiva cache with capacity: 500
+[538310:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.gOk4vxFbq6/BUILD/f021bb4898ca5f8d8d3e81c3713310f5e929b332/arrow/src_tmp/cpp/src/gandiva/engine.cc:109: Detected CPU Name : cascadelake
+[538310:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.gOk4vxFbq6/BUILD/f021bb4898ca5f8d8d3e81c3713310f5e929b332/arrow/src_tmp/cpp/src/gandiva/engine.cc:110: Detected CPU Features: +sse2 -tsxldtrk +cx16 +sahf -tbm -avx512ifma -sha -gfni -fma4 -vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -ptwrite -amx-tile -uintr +popcnt -widekl +aes -avx512bitalg -movdiri +xsaves -avx512er -avxvnni +avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb +avx512f +xsavec -clzero +pku +mmx -lwp -rdpid -xop +rdseed -waitpkg -kl -movdir64b -sse4a +avx512bw +clflushopt +xsave -avx512vbmi2 +64bit +avx512vl -serialize -hreset +invpcid +avx512cd +avx -vaes -avx512bf16 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -prefetchwt1 +f16c +ssse3 -sgx -shstk +cmov -avx512vbmi -amx-int8 +movbe -avx512vp2intersect +xsaveopt +avx512dq +adx -avx512pf +sse3
+[538311:hf-tag-sel-collisions]: [12:15:03][INFO] Creating 0.020352MB for table AOD/HFSELCOLLISION.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 17.570664MB for table AOD/TRACKEXTRA.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 0.100552MB for table AOD/BC.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Creating 1.817888MB for table AOD/MCTRACKLABEL.
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Offer 2 still valid for 7415 milliseconds, providing 300MB
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] 1 offers were selected for a total of: cpu 0, memory 0, shared memory 300000000
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO]   The following offers were selected for computation: 2 
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO]   The following offers were invalid: 1
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Read info: lfn=/home/mmazzill/pp14TeV_oniaX_10M_geometry_v1_2T_rmin20_01092021/AODRun5.0.root,size=103268408,total_df=1,read_df=1,read_bytes=141803550,read_calls=53,io_time=1.8,wait_time=0.8
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] No input files left to read for reader 0!
+[INFO] Offer consumed so far 200000000
+[INFO] unusedOfferedMemory:1800 = offered:2000 - (expired:0 + consumed:200) / 1000000
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] Offer 2 still valid for 7410 milliseconds, providing 300MB
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO] 1 offers were selected for a total of: cpu 0, memory 0, shared memory 300000000
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO]   The following offers were selected for computation: 2 
+[538309:internal-dpl-aod-reader]: [12:15:03][INFO]   The following offers were invalid: 1
+[538310:internal-dpl-aod-spawner]: [12:15:04][INFO] Creating 51.028248MB for table DYN/MCPARTICLE.
+[538310:internal-dpl-aod-spawner]: [12:15:04][INFO] Creating 18.17596MB for table DYN/TRACKCOV.
+[538310:internal-dpl-aod-spawner]: [12:15:04][INFO] Creating 4.847096MB for table DYN/TRACK.
+[538312:tof-pid-full]: [12:15:04][ERROR] Exception caught: Unable to find column with label fTrackTime 
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2FrameworkFoundation.so(_ZN2o29framework15runtime_error_fEPKcz+0xf9)[0x7f661c8d82e9]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o23soa17getIndexFromLabelEPN5arrow5TableEPKc+0x289)[0x7f661d64cb59]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x463ee1]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x489bcf]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x48b121]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice22tryDispatchComputationERNS0_20DataProcessorContextERSt6vectorINS0_11DataRelayer12RecordActionESaIS6_EE+0xb0d)[0x7f661d6ca3dd]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice5doRunERNS0_20DataProcessorContextE+0x6b)[0x7f661d6ca75b]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice3RunEv+0x28e)[0x7f661d6cc54e]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQ.so.1.4(_ZN4fair2mq6Device10RunWrapperEv+0x372)[0x7f661c706122]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN5boost6detail8function26void_function_obj_invoker1ISt8functionIFvN4fair2mq5StateEEEvS6_E6invokeERNS1_15function_bufferES6_+0x1d)[0x7f661c38dffd]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN5boost8signals26detail11signal_implIFvN4fair2mq5StateEENS0_19optional_last_valueIvEEiSt4lessIiENS_8functionIS6_EENSB_IFvRKNS0_10connectionES5_EEENS0_5mutexEEclES5_+0x309)[0x7f661c395889]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN4fair2mq3fsm8Machine_11ProcessWorkEv+0x490)[0x7f661c397580]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN4fair2mq12StateMachine11ProcessWorkEv+0x49)[0x7f661c38c8c9]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQ.so.1.4(_ZN4fair2mq12DeviceRunner3RunEv+0xa97)[0x7f661c7166f7]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z7doChildiPPcRN2o29framework15ServiceRegistryERKNS2_19RunningWorkflowInfoENS2_16RunningDeviceRefENS2_17TerminationPolicyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9uv_loop_s+0x234)[0x7f661d7f7cc4]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z15runStateMachineRKSt6vectorIN2o29framework17DataProcessorSpecESaIS2_EERK12WorkflowInfoRKS_INS1_17DataProcessorInfoESaISA_EERKNS1_11CommandInfoERNS1_13DriverControlERNS1_10DriverInfoERS_INS1_17DeviceMetricsInfoESaISM_EERN5boost15program_options13variables_mapENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xbf6)[0x7f661d7f8d06]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z6doMainiPPcRKSt6vectorIN2o29framework17DataProcessorSpecESaIS4_EERKS1_INS3_26ChannelConfigurationPolicyESaIS9_EERKS1_INS3_16CompletionPolicyESaISE_EERKS1_INS3_14DispatchPolicyESaISJ_EERKS1_INS3_14ResourcePolicyESaISO_EERKS1_INS3_15ConfigParamSpecESaIST_EERNS3_13ConfigContextE+0x3097)[0x7f661d802657]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x43f1e6]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x4332b2]
+[538312:tof-pid-full]: /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f6616ba40b3]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x43340e]
+[538312:tof-pid-full]: [12:15:04][STATE] Exiting FairMQ state machine
+[538312:tof-pid-full]: [12:15:04][ERROR] Unhandled o2::framework::runtime_error reached the top of main of o2-analysis-pid-tof-full, device shutting down.
+[538312:tof-pid-full]:  Reason: 
+[538312:tof-pid-full]:  Backtrace follow: 
+[538312:tof-pid-full]: 
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2FrameworkFoundation.so(_ZN2o29framework15runtime_error_fEPKcz+0xf9)[0x7f661c8d82e9]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o23soa17getIndexFromLabelEPN5arrow5TableEPKc+0x289)[0x7f661d64cb59]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x463ee1]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x489bcf]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x48b121]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice22tryDispatchComputationERNS0_20DataProcessorContextERSt6vectorINS0_11DataRelayer12RecordActionESaIS6_EE+0xb0d)[0x7f661d6ca3dd]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice5doRunERNS0_20DataProcessorContextE+0x6b)[0x7f661d6ca75b]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_ZN2o29framework20DataProcessingDevice3RunEv+0x28e)[0x7f661d6cc54e]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQ.so.1.4(_ZN4fair2mq6Device10RunWrapperEv+0x372)[0x7f661c706122]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN5boost6detail8function26void_function_obj_invoker1ISt8functionIFvN4fair2mq5StateEEEvS6_E6invokeERNS1_15function_bufferES6_+0x1d)[0x7f661c38dffd]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN5boost8signals26detail11signal_implIFvN4fair2mq5StateEENS0_19optional_last_valueIvEEiSt4lessIiENS_8functionIS6_EENSB_IFvRKNS0_10connectionES5_EEENS0_5mutexEEclES5_+0x309)[0x7f661c395889]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN4fair2mq3fsm8Machine_11ProcessWorkEv+0x490)[0x7f661c397580]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQStateMachine.so.1.4(_ZN4fair2mq12StateMachine11ProcessWorkEv+0x49)[0x7f661c38c8c9]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/FairMQ/v1.4.42-1/lib/libFairMQ.so.1.4(_ZN4fair2mq12DeviceRunner3RunEv+0xa97)[0x7f661c7166f7]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z7doChildiPPcRN2o29framework15ServiceRegistryERKNS2_19RunningWorkflowInfoENS2_16RunningDeviceRefENS2_17TerminationPolicyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9uv_loop_s+0x234)[0x7f661d7f7cc4]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z15runStateMachineRKSt6vectorIN2o29framework17DataProcessorSpecESaIS2_EERK12WorkflowInfoRKS_INS1_17DataProcessorInfoESaISA_EERKNS1_11CommandInfoERNS1_13DriverControlERNS1_10DriverInfoERS_INS1_17DeviceMetricsInfoESaISM_EERN5boost15program_options13variables_mapENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xbf6)[0x7f661d7f8d06]
+[538312:tof-pid-full]: /home/defalco/alice/sw/ubuntu2004_x86-64/O2/dev-local4/lib/libO2Framework.so(_Z6doMainiPPcRKSt6vectorIN2o29framework17DataProcessorSpecESaIS4_EERKS1_INS3_26ChannelConfigurationPolicyESaIS9_EERKS1_INS3_16CompletionPolicyESaISE_EERKS1_INS3_14DispatchPolicyESaISJ_EERKS1_INS3_14ResourcePolicyESaISO_EERKS1_INS3_15ConfigParamSpecESaIST_EERNS3_13ConfigContextE+0x3097)[0x7f661d802657]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x43f1e6]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x4332b2]
+[538312:tof-pid-full]: /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f6616ba40b3]
+[538312:tof-pid-full]: o2-analysis-pid-tof-full[0x43340e]
+[538312:tof-pid-full]: terminate called after throwing an instance of 'o2::framework::RuntimeErrorRef'
+[INFO] QUIT_REQUESTED
+[538308:internal-dpl-clock]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538308:internal-dpl-clock]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 2 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 3 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 4 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 5 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 6 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 7 expired since 50791 milliseconds and holds 300MB
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] No offer was selected
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO]   The following offers were invalid: 1, 8, 9, 10, 11, 12, 13, 14, 15
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO]   The following offers are expired: 2, 3, 4, 5, 6, 7
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Handling 6 expired offers
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 2 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 3 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 4 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 5 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 6 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][INFO] Offer 7 expired. Giving back 300MB and 0 cores
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] RUNNING ---> READY
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] IDLE ---> EXITING
+[538309:internal-dpl-aod-reader]: [12:16:01][STATE] Exiting FairMQ state machine
+[538310:internal-dpl-aod-spawner]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538310:internal-dpl-aod-spawner]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] RUNNING ---> READY
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] IDLE ---> EXITING
+[538310:internal-dpl-aod-spawner]: [12:16:01][STATE] Exiting FairMQ state machine
+[538311:hf-tag-sel-collisions]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538311:hf-tag-sel-collisions]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538313:tpc-pid-full]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538313:tpc-pid-full]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538313:tpc-pid-full]: [12:16:01][STATE] RUNNING ---> READY
+[538313:tpc-pid-full]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538313:tpc-pid-full]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538313:tpc-pid-full]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538313:tpc-pid-full]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538313:tpc-pid-full]: [12:16:01][STATE] IDLE ---> EXITING
+[538313:tpc-pid-full]: [12:16:01][STATE] Exiting FairMQ state machine
+[538315:hf-track-index-skims-creator]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538315:hf-track-index-skims-creator]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] RUNNING ---> READY
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] IDLE ---> EXITING
+[538315:hf-track-index-skims-creator]: [12:16:01][STATE] Exiting FairMQ state machine
+[538316:hf-cand-creator-2prong]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538316:hf-cand-creator-2prong]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] RUNNING ---> READY
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] IDLE ---> EXITING
+[538316:hf-cand-creator-2prong]: [12:16:01][STATE] Exiting FairMQ state machine
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] RUNNING ---> READY
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] IDLE ---> EXITING
+[538317:hf-cand-creator-2prong-expressions]: [12:16:01][STATE] Exiting FairMQ state machine
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] RUNNING ---> READY
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] IDLE ---> EXITING
+[538318:hf-cand-creator-2prong-mc]: [12:16:01][STATE] Exiting FairMQ state machine
+[538320:hf-task-d0]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538320:hf-task-d0]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538320:hf-task-d0]: [12:16:01][STATE] RUNNING ---> READY
+[538320:hf-task-d0]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538320:hf-task-d0]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538320:hf-task-d0]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538320:hf-task-d0]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538320:hf-task-d0]: [12:16:01][STATE] IDLE ---> EXITING
+[538320:hf-task-d0]: [12:16:01][STATE] Exiting FairMQ state machine
+[538321:hf-task-d0-mc]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538321:hf-task-d0-mc]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538321:hf-task-d0-mc]: [12:16:01][STATE] RUNNING ---> READY
+[538321:hf-task-d0-mc]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538321:hf-task-d0-mc]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538321:hf-task-d0-mc]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538321:hf-task-d0-mc]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538321:hf-task-d0-mc]: [12:16:01][STATE] IDLE ---> EXITING
+[538321:hf-task-d0-mc]: [12:16:01][STATE] Exiting FairMQ state machine
+[538322:internal-dpl-aod-writer]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538322:internal-dpl-aod-writer]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] RUNNING ---> READY
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] IDLE ---> EXITING
+[538323:internal-dpl-aod-global-analysis-file-sink]: [12:16:01][STATE] Exiting FairMQ state machine
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] RUNNING ---> READY
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] IDLE ---> EXITING
+[538311:hf-tag-sel-collisions]: [12:16:01][STATE] Exiting FairMQ state machine
+[538314:hf-tag-sel-tracks]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538314:hf-tag-sel-tracks]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] RUNNING ---> READY
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] IDLE ---> EXITING
+[538314:hf-tag-sel-tracks]: [12:16:01][STATE] Exiting FairMQ state machine
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Received device shutdown request (signal 15).
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] RUNNING ---> READY
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Cleaning up for shared memory id 'ddd5ee30'...
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] No region counter found. No regions to cleanup.
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Successfully removed 'fmq_ddd5ee30_m_0'.
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Successfully removed 'fmq_ddd5ee30_mng'.
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Successfully removed 'fmq_ddd5ee30_mtx'.
+[538319:hf-d0-candidate-selector]: [12:16:01][INFO] Successfully removed 'fmq_ddd5ee30_cv'.
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] RUNNING ---> READY
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] IDLE ---> EXITING
+[538322:internal-dpl-aod-writer]: [12:16:01][STATE] Exiting FairMQ state machine
+[538308:internal-dpl-clock]: [12:16:01][STATE] RUNNING ---> READY
+[538308:internal-dpl-clock]: [12:16:01][STATE] READY ---> RESETTING TASK
+[538308:internal-dpl-clock]: [12:16:01][STATE] RESETTING TASK ---> DEVICE READY
+[538308:internal-dpl-clock]: [12:16:01][STATE] DEVICE READY ---> RESETTING DEVICE
+[538308:internal-dpl-clock]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538308:internal-dpl-clock]: [12:16:01][STATE] IDLE ---> EXITING
+[538308:internal-dpl-clock]: [12:16:01][STATE] Exiting FairMQ state machine
+[INFO] Forceful exit requested.
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] RESETTING DEVICE ---> IDLE
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] IDLE ---> EXITING
+[538319:hf-d0-candidate-selector]: [12:16:01][STATE] Exiting FairMQ state machine
+[INFO] Dumping used configuration in dpl-config.json
+[ERROR] SEVERE: Device tof-pid-full (538312) had at least one message above severity error: Exception caught: Unable to find column with label fTrackTime 
